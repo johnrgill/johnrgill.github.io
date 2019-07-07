@@ -135,12 +135,23 @@ textarea {
 }
 
 #contactp{
-     margin-right: 6%;
-     margin-bottom: 1%;
+     text-align: center;
+     margin-right: 30%;
      float: right;
      color: #faebd7;
 }
-
+#email {
+     text-align: center;
+     margin-right: 33.33%;
+     float: right;
+     color: #faebd7;
+     text-decoration: underline;
+}
+#email_button{
+     text-align: center;
+     margin-right: 32%;
+     float: right;
+}
 #fadeContact{
 
      text-align: center;
@@ -149,4 +160,10 @@ textarea {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+#my_email{
+     opacity: 0;
+     position: absolute;
+     z-index: -9999;
+     pointer-events: none;
 }

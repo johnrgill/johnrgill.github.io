@@ -38,3 +38,10 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+function copyEmail() {
+var copyText = document.getElementById("my_email");
+  copyText.select();
+  document.execCommand("Copy");
+  }
+  
