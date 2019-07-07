@@ -40,26 +40,14 @@
 
     <main role="main" class="container">
      <div id="contactForm"> 
-      <form action="action_page.php">
-
-        <label for="fname">First Name: </label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <br/>
-        <label for="lname">Last Name: </label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <br/>
-  
- 
-        <label for="subject">Subject: </label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <input type="submit" value="Submit">
-
-      </form> 
+      
     </div>
     <div id="fadeContact">
       <img id="pixeljohn" src="pixeljohn.png"/>
       <p id="contactp">I'd love to hear from you!</p>
+      <p id="email">john.gill.cb@gmail.com</p>
+      <input id="my_email" type="text" value="john.gill.cb@gmail.com" />
+      <button id="email_button" onclick="copyEmail();">copy email to clipboard</button>
     </div>
     </main><!-- /.container -->
 
@@ -68,6 +56,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="./js/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
